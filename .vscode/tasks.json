@@ -1,0 +1,16 @@
+{
+	"version": "2.0.0",
+	"tasks": 
+	[
+		{
+			"label": "OPEN-OCD-RUN",
+			"type": "shell",
+			"command": "clear & start openocd.exe -f interface/jlink.cfg -c \"adapter speed 20000\" -f target/esp32.cfg & exit",
+		},
+		{
+			"label": "OPEN-OCD-Flash-RUN",
+			"type": "shell",
+			"command" : "clear & start openocd.exe -f interface/jlink.cfg -c \"adapter speed 20000\" -f target/esp32.cfg -c \"program_esp32 build/GPIO.bin 0x10000 verify\" & exit"
+		}
+	],
+}

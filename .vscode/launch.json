@@ -1,0 +1,30 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "preLaunchTask": "OPEN-OCD-RUN",
+            "name": "ESP32 JTAG",
+            "type": "cppdbg",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/build",
+            "program": "${workspaceFolder}/build/GPIO.elf",
+            "miDebuggerPath": "C:/Users/Taheri/.espressif/tools/xtensa-esp-elf-gdb/11.2_20220823/xtensa-esp-elf-gdb/bin/xtensa-esp32-elf-gdb.exe",
+            "setupCommands":
+            [
+                {"text": "target remote 127.0.0.1:3333" },
+                {"text": "set remote hardware-watchpoint-limit 2" },
+                {"text": "mon reset halt" },
+                {"text": "thb app_main" },
+                {"text": "flushregs" },
+                {"text": "mon program_esp build/bootloader/bootloader.bin 0x1000 verify"},
+                {"text": "mon program_esp build/partition_table/partition-table.bin 0x8000 verify"},
+                {"text": "mon program_esp build/GPIO.bin 0x10000 verify"},
+                {"text": "monitor reset halt"},
+                {"text": "flushregs"}
+            ]
+        }
+    ]
+}
