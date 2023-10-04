@@ -20,10 +20,9 @@
 
 
 ## Contact ME:
-[github](https://github.com/hardphoenix)
+[GITHUB](https://github.com/hardphoenix)
 
 [Telegram](https://t.me/mhtaheri_ir)
 
 ## License
-
-[GNU GENERAL PUBLIC LICENSE]()
+[GNU GENERAL PUBLIC LICENSE](https://github.com/hardphoenix/ESP32-JLink/blob/main/LICENSE)
