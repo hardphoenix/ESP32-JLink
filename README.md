@@ -23,35 +23,35 @@
 7- Open Your File *.code-workspace  and Copy This 
 Copy :
 ```json
-        "actionButtons": 
-        {
-			"defaultColor": "FF0033",
-			"loadNpmCommands": false,
-			"reloadButton": "🍕",
-			"commands": 
-            [
-				{
-					"name": "Build",
-					"command": "idf.py build",
-					"color": "orange"
-				},
-				{
-					"name": "Jlink-Flash",
-					"command": "openocd -f interface/jlink.cfg -c \"adapter speed 20000\" -f target/esp32.cfg -c \"program_esp32 build/GPIO.bin 0x10000 verify reset exit\"",
-					"color": "yellow"
-				},
-				{
-					"name": "Run & Monitor",
-					"command": "idf.py -p COM15 flash monitor",
-					"color": "orange"
-				},
-				{
-					"name": "Menuconfig",
-					"command": "start idf.py menuconfig",
-					"color": "yellow"
-				}
-			]
-		},
+"actionButtons": 
+{
+        "defaultColor": "FF0033",
+        "loadNpmCommands": false,
+        "reloadButton": "🍕",
+        "commands": 
+        [
+            {
+                "name": "Build",
+                "command": "idf.py build",
+                "color": "orange"
+            },
+            {
+                "name": "Jlink-Flash",
+                "command": "openocd -f interface/jlink.cfg -c \"adapter speed 20000\" -f target/esp32.cfg -c \"program_esp32 build/GPIO.bin 0x10000 verify reset exit\"",
+                "color": "yellow"
+            },
+            {
+                "name": "Run & Monitor",
+                "command": "idf.py -p COM15 flash monitor",
+                "color": "orange"
+            },
+            {
+                "name": "Menuconfig",
+                "command": "start idf.py menuconfig",
+                "color": "yellow"
+            }
+        ]
+},
 ```
 
 ![OpenWorkSpaceAndEditing](https://github.com/hardphoenix/ESP32-JLink/blob/main/image/edit.png)
