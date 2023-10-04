@@ -4,7 +4,8 @@
 			"path": "."
 		}
 	],
-	"settings": {
+	"settings": 
+	{
 		"actionButtons": {
 			"defaultColor": "FF0033",
 			"loadNpmCommands": false,
@@ -38,4 +39,5 @@
 			"/k",
 			"C:\\esp_idf\\export.bat"
 		]
+	}
 }
