@@ -85,7 +85,10 @@ Refresh Buttons:
 
 ![debug](https://github.com/hardphoenix/ESP32-JLink/blob/main/image/debug.png)
 
-![debug_final]()
+And Final You See This Debug Menu:
+
+![debug_final](https://github.com/hardphoenix/ESP32-JLink/blob/main/image/Debug_Final.png)
+
 ### Wiring ESP32 And Jtag Port:
 
 ![Wiring:](https://github.com/hardphoenix/ESP32-JLink/blob/main/image/ESP32-JLINK_Wiring.png)
