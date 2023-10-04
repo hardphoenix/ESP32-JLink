@@ -19,7 +19,8 @@
 ![Wiring:](https://github.com/hardphoenix/ESP32-JLink/blob/main/image/ESP32-JLINK_Wiring.png)
 
 ## You can see the video of the above steps in one of the following links:
-[Aparat](After Edit Will Upload !! )
+
+[ESP32-jLink](It is being uploaded to Aparat)
 
 
 ## Contact ME:
