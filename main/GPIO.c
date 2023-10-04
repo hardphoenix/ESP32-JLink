@@ -35,10 +35,10 @@ static void gpio_Task(void)
     {
         gpio_set_level(GPIO_NUM_2,1);
         printf("LED ON\r\n");
-        vTaskDelay(pdMS_TO_TICKS(500));
+        vTaskDelay(pdMS_TO_TICKS(100));
         gpio_set_level(GPIO_NUM_2,0);
         printf("LED OFF\r\n");
-        vTaskDelay(pdMS_TO_TICKS(500));
+        vTaskDelay(pdMS_TO_TICKS(100));
     }
 }
 
