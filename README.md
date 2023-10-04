@@ -14,27 +14,31 @@
 5- If you do not use VSCODE extension "Espressif IDF" -> Check the Python version,
    it should be 3.8.7 - It must be in the path Of Windows
 
-![GetVersionOfPython]()
+![GetVersionOfPython](https://github.com/hardphoenix/ESP32-JLink/blob/main/image/PythonVer.png)
 
 6- Open Folder Of Project in VSCode And Go To 'File-> Save Workspace As' And Save Your File in Base Directory.
 
-![SaveWorkspace]()
+![SaveWorkspace](https://github.com/hardphoenix/ESP32-JLink/blob/main/image/FileWorkspace.png)
 
-7-open ".vscode" Folder in VSCode edit Line:12 in launch.json And Set Your ESP-IDF Directory
-
-![luanch.json]()
-
-8- Open Your File *.code-workspace  and Copy This 
+7- Open Your File *.code-workspace  and Copy This 
 
 ![OpenWorkSpaceAndEditing]()
 
-9- To compile the program, just press the build button
+8-open ".vscode" Folder in VSCode edit Line:12 in launch.json And Set Your ESP-IDF Directory And Save it.
 
-10- To flash and monitor as Com serial, edit the COM port in the workspace And Refresh Button With Pizza Icon
-![ComEdit]()
+![luanch-json](https://github.com/hardphoenix/ESP32-JLink/blob/main/image/gdbpath.png)
 
-11- To Jlink Flash And Verify Wtih Jtag Port 3 File (bootloader.bin , partition_table.bin , GPIO.bin)
+9- To compile the program, just press the "build" button.
 
+10- Connect Jlink To ESP32 Board
+
+11- To flash and monitor as COM Port, edit the COM port in the GPIO.code-workspace And Refresh Button With Pizza Icon
+![ComEdit](https://github.com/hardphoenix/ESP32-JLink/blob/main/image/refresh.png)
+
+12- To Flash And Verify Wtih Jlink Jtag Port 3 File (bootloader.bin , partition_table.bin , GPIO.bin)
+
+13- To Debug ESP32 You Can Go Left Side VSCode Debug Section And Select "ESP32 JTAG" and Click "▶" Button.
+![debug]()
 
 ### Wiring ESP32 And Jtag Port:
 
