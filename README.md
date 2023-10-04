@@ -20,7 +20,7 @@
 
 ![SaveWorkspace](https://github.com/hardphoenix/ESP32-JLink/blob/main/image/FileWorkspace.png)
 
-7- Open Your File *.code-workspace  and edit it Whit These lines:
+7- Open Your File *.code-workspace  and edit it with These lines:
 
 ```json
 "actionButtons": 
@@ -57,11 +57,11 @@
 
 ![OpenWorkSpaceAndEditing](https://github.com/hardphoenix/ESP32-JLink/blob/main/image/edit.png)
 
-After refresh Button:
-
-8-open ".vscode" Folder in VSCode edit Line:14 in launch.json And Set Your ESP-IDF GDB.exe Directory And Save it.
+Then hit the refresh button:
 
 ![refresh](https://github.com/hardphoenix/ESP32-JLink/blob/main/image/refresh.png)
+
+8-open ".vscode" Folder in VSCode edit Line:14 in launch.json And Set Your ESP-IDF GDB.exe Directory And Save it.
 
 ![luanch-json](https://github.com/hardphoenix/ESP32-JLink/blob/main/image/gdbpath.png)
 
