@@ -21,8 +21,40 @@
 ![SaveWorkspace](https://github.com/hardphoenix/ESP32-JLink/blob/main/image/FileWorkspace.png)
 
 7- Open Your File *.code-workspace  and Copy This 
+Copy :
+```json
+        "actionButtons": 
+        {
+			"defaultColor": "FF0033",
+			"loadNpmCommands": false,
+			"reloadButton": "🍕",
+			"commands": 
+            [
+				{
+					"name": "Build",
+					"command": "idf.py build",
+					"color": "orange"
+				},
+				{
+					"name": "Jlink-Flash",
+					"command": "openocd -f interface/jlink.cfg -c \"adapter speed 20000\" -f target/esp32.cfg -c \"program_esp32 build/GPIO.bin 0x10000 verify reset exit\"",
+					"color": "yellow"
+				},
+				{
+					"name": "Run & Monitor",
+					"command": "idf.py -p COM15 flash monitor",
+					"color": "orange"
+				},
+				{
+					"name": "Menuconfig",
+					"command": "start idf.py menuconfig",
+					"color": "yellow"
+				}
+			]
+		},
+```
 
-![OpenWorkSpaceAndEditing]()
+![OpenWorkSpaceAndEditing](https://github.com/hardphoenix/ESP32-JLink/blob/main/image/edit.png)
 
 8-open ".vscode" Folder in VSCode edit Line:12 in launch.json And Set Your ESP-IDF Directory And Save it.
 
@@ -36,9 +68,10 @@
 
 ![ComEdit](https://github.com/hardphoenix/ESP32-JLink/blob/main/image/refresh.png)
 
-##### 12- To Flash And Verify Wtih Jlink Jtag Port 3 File (bootloader.bin , partition_table.bin , GPIO.bin)
+12- To Flash And Verify Wtih Jlink Jtag Port 3 File (bootloader.bin , partition_table.bin , GPIO.bin)
 
-##### 13- To Debug ESP32 You Can Go Left Side VSCode Debug Section And Select "ESP32 JTAG" and Click "▶" Button.
+13- To Debug ESP32 You Can Go Left Side VSCode Debug Section And Select "ESP32 JTAG" and Click "▶" Button.
+
 ![debug](https://github.com/hardphoenix/ESP32-JLink/blob/main/image/debug.png)
 
 ### Wiring ESP32 And Jtag Port:
