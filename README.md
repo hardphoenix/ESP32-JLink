@@ -57,7 +57,11 @@
 
 ![OpenWorkSpaceAndEditing](https://github.com/hardphoenix/ESP32-JLink/blob/main/image/edit.png)
 
-8-open ".vscode" Folder in VSCode edit Line:12 in launch.json And Set Your ESP-IDF Directory And Save it.
+After refresh Button:
+
+8-open ".vscode" Folder in VSCode edit Line:14 in launch.json And Set Your ESP-IDF GDB.exe Directory And Save it.
+
+![refresh](https://github.com/hardphoenix/ESP32-JLink/blob/main/image/refresh.png)
 
 ![luanch-json](https://github.com/hardphoenix/ESP32-JLink/blob/main/image/gdbpath.png)
 
@@ -65,9 +69,13 @@
 
 10- Connect Jlink To ESP32 Board
 
-11- To flash and monitor as COM Port, edit the COM port in the GPIO.code-workspace And Refresh Button With "🍕" Pizza Icon.
+11- To flash and monitor as COM Port, edit the COM port in the "GPIO.code-workspace" And Refresh Button With "🍕" Pizza Icon.
 
-![ComEdit](https://github.com/hardphoenix/ESP32-JLink/blob/main/image/refresh.png)
+![ComEdit](https://github.com/hardphoenix/ESP32-JLink/blob/main/image/editCom.png)
+
+Refresh Buttons:
+
+![refresh](https://github.com/hardphoenix/ESP32-JLink/blob/main/image/refresh.png)
 
 12- To Flash And Verify Wtih Jlink Jtag Port 3 File (bootloader.bin , partition_table.bin , GPIO.bin)
 
@@ -78,6 +86,7 @@
 ### Wiring ESP32 And Jtag Port:
 
 ![Wiring:](https://github.com/hardphoenix/ESP32-JLink/blob/main/image/ESP32-JLINK_Wiring.png)
+
 
 ## You can see the video of the above steps in one of the following links:
 
