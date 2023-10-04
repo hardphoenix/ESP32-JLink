@@ -32,7 +32,7 @@
 
 10- Connect Jlink To ESP32 Board
 
-11- To flash and monitor as COM Port, edit the COM port in the GPIO.code-workspace And Refresh Button With Pizza Icon
+11- To flash and monitor as COM Port, edit the COM port in the GPIO.code-workspace And Refresh Button With "🍕" Pizza Icon.
 
 ![ComEdit](https://github.com/hardphoenix/ESP32-JLink/blob/main/image/refresh.png)
 
