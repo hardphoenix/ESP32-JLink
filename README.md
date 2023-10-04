@@ -20,8 +20,8 @@
 
 ![SaveWorkspace](https://github.com/hardphoenix/ESP32-JLink/blob/main/image/FileWorkspace.png)
 
-7- Open Your File *.code-workspace  and Copy This 
-Copy :
+7- Open Your File *.code-workspace  and edit it Whit These lines:
+
 ```json
 "actionButtons": 
 {
@@ -42,7 +42,7 @@ Copy :
             },
             {
                 "name": "Run & Monitor",
-                "command": "idf.py -p COM15 flash monitor",
+                "command": "idf.py -p COM* flash monitor",
                 "color": "orange"
             },
             {
@@ -52,6 +52,7 @@ Copy :
             }
         ]
 },
+
 ```
 
 ![OpenWorkSpaceAndEditing](https://github.com/hardphoenix/ESP32-JLink/blob/main/image/edit.png)
