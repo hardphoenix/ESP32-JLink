@@ -44,7 +44,7 @@
             },
             {
                 "name": "Run & Monitor",
-                "command": "idf.py -p COM* flash monitor",
+                "command": "idf.py -p COM15 flash monitor",
                 "color": "orange"
             },
             {
@@ -85,6 +85,7 @@ Refresh Buttons:
 
 ![debug](https://github.com/hardphoenix/ESP32-JLink/blob/main/image/debug.png)
 
+![debug_final]()
 ### Wiring ESP32 And Jtag Port:
 
 ![Wiring:](https://github.com/hardphoenix/ESP32-JLink/blob/main/image/ESP32-JLINK_Wiring.png)
